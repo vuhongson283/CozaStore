@@ -1,0 +1,168 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 22-01-2024, 16:02:34
+    Author     : Cao Duy Quân
+*/
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jan 14, 2024, 3:54:39 PM
+    Author     : PCMSI
+*/
+
+bodym {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 992px;
+    margin: 0 auto;
+}
+
+.btnm {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btnm:active {
+    transform: scale(0.9);
+}
+
+.close-modalm {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.modalm {
+    width: 450px;
+    position: fixed;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: top 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    z-index: 2;
+    background-color: #fff;
+}
+
+.modalm.active {
+    top: 50%;
+}
+
+.modalm .headerm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.modalm .bodym {
+    padding: 0.75rem;
+}
+
+#overlaym {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#overlaym.active {
+    display: block;
+}
+
+.checkbox-wrapper-17 input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.checkbox-wrapper-17 label {
+    --size: 50px;
+
+    cursor: pointer;
+    width: var(--size);
+    height: calc(var(--size) / 2);
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+.checkbox-wrapper-17 label:after {
+    content: '';
+    position: absolute;
+    top: 6%;
+    left: 2.5%;
+    width: calc(50% - 5%);
+    height: calc(100% - 11%);
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+.checkbox-wrapper-17 input:checked + label {
+    background: #bada55;
+}
+
+.checkbox-wrapper-17 input:checked + label:after {
+    left: calc(100% - 2.5%);
+    transform: translateX(-100%);
+}
+
+.checkbox-wrapper-17 label:active:after {
+    width: 55%;
+}
+
+/* Add your existing styles here */
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.checkbox-wrapper-17 {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-wrapper-17 input {
+    margin-right: 5px;
+}
+
+.btn {
+    margin: 1px;
+}

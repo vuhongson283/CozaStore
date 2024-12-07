@@ -1,0 +1,95 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 09-02-2024, 15:40:18
+    Author     : Cao Duy Quân
+*/
+
+  .headerm {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .title {
+                font-size: 24px;
+            }
+
+            .profile-img {
+                text-align: center;
+            }
+
+            .profile-img img {
+                width: 180px;
+                height: 160px;
+            }
+
+            .profile-head {
+                margin-top: 20px;
+            }
+
+            .profile-tab .row {
+                margin-bottom: 10px;
+            }
+
+            .col-md-4 {
+                font-weight: bold;
+            }
+
+            .col-md-8 {
+                padding-left: 15px;
+            }
+
+            .btn-primary {
+                margin: 5px;
+            }
+            .profile-img {
+                text-align: center;
+            }
+
+            .profile-img img {
+                width: 100%; /* Đảm bảo hình ảnh lấp đầy khối */
+                max-width: 180px; /* Đảm bảo hình ảnh không vượt quá kích thước tối đa */
+                height: auto; /* Duy trì tỷ lệ khung hình ban đầu */
+            }
+
+            .profile-head {
+                margin-top: 20px;
+            }
+
+            .profile-tab .row {
+                margin-bottom: 10px;
+            }
+
+            .col-md-4,
+            .col-md-8 {
+                padding: 0 15px; /* Thêm padding để tạo khoảng cách */
+            }
+
+            .col-md-4 {
+                display: flex;
+                align-items: center; /* Căn chỉnh nội dung theo chiều dọc */
+            }
+
+            .col-md-8 {
+                display: flex;
+                align-items: center; /* Căn chỉnh nội dung theo chiều dọc */
+            }
+            .profile-head {
+                margin-top: 20px;
+            }
+
+            .profile-tab .row {
+                margin-bottom: 10px;
+            }
+
+            .col-md-4,
+            .col-md-8 {
+                padding: 0 10px; /* Thêm padding để tạo khoảng cách */
+            }
+
+            .col-md-4 label,
+            .col-md-8 p {
+                margin-bottom: 0; /* Loại bỏ khoảng cách dưới cùng của nhãn và nội dung */
+            }

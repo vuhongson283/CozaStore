@@ -1,0 +1,88 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jan 28, 2024, 1:14:18 PM
+    Author     : PCMSI
+*/
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jan 14, 2024, 3:54:39 PM
+    Author     : PCMSI
+*/
+
+bodym {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 992px;
+  margin: 0 auto;
+}
+
+.btnm {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btnm:active {
+  transform: scale(0.9);
+}
+
+.close-modalm {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.modalm {
+  width: 450px;
+  position: fixed;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: top 0.3s ease-in-out;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.modalm.active {
+  top: 25%;
+}
+
+.modalm .headerm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.modalm .bodym {
+  padding: 0.75rem;
+}
+
+#overlaym {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#overlaym.active {
+  display: block;
+}
